@@ -1,0 +1,47 @@
+#Overview
+In this research project, we are going to analyze the Student Test performance data to understand if any socio-economic factors such as gender, parental education level, school's lunch program and student's test preparation have any impact on the test performance. 
+
+As a teacher, it is always important to assess the student performance and various factors that impact their performance, so that they can revise and improve teaching methods. Ongoing assessment of student learning allows teachers to engage in continuous quality improvement of their courses
+#Data
+The dataset we are going to leverage in this research contains some key information about students demographics data such as (gender, race/ethnicity, parental level of education and lunch program) as well as students test preparation and the test scores from 3 subjects (math, reading and writing). 
+
+Dataset is available for educational research purpose in Kaggle (link included below). This datasets containing 1000 rows and 8 columns has been imported to my git profile for analysis. 
+
+**Link** - https://www.kaggle.com/datasets/spscientist/students-performance-in-exams
+
+**NOTE**: This dataset is FICTIONAL! Does not represent real school data.
+#Research Design
+##Dataset Features
+Currently, the dataset that we're going to use this in this research contains the following features: 
+
+*   gender - indicates students gender (male/female)
+*   race/ethnicity - indicates students race/ethnicity
+*   parental level of education - indicates the level of education the student's parent has completed
+*   lunch - indicates the schools lunch program that student participcates (free/standard)
+*   test preparation course - indicates whether the student has completed the test preparation course
+*   math score - indicates math score obtained by student
+*   reading score - indicates reading score obtained by student
+*   writing score - indicates writing score obtained by student
+
+In addition to above, we will derive additional feature listed below to support our research analysis:
+
+*   avg score - average score across all 3 subjects
+##Business Questions
+In this research, we are going to analyze our dataset so that we can try to answer the following business questions: 
+
+*   Does the students performance vary based on their gender?
+*   Does Parents education have any effect on student performance?
+
+##Hypothesis Testing
+As part of this research, we are going to conduct the following hypothesis testing: 
+
+####Hypothesis testing based on students gender and performance
+*   H0 (NULL): There is no difference in students average score based on their gender
+*   H1 (Alternate): Significant difference exists in students average scores based on their gender
+
+We'll use t-test to perform our hypothesis testing on above.
+
+####Hypothesis testing based on parents level of education and students  performance
+*   H0 (NULL): There is no difference in students average score based on their parents level of education
+*   H1 (Alternate): Significant difference exists in students average scores based on their parents level of education
+
